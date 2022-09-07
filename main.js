@@ -42,7 +42,7 @@ const obtenerData = async (url) => {
         }
         lista.innerHTML += `
    <div class="card col-12 col-md-3 mx-auto my-3" style="width: 18rem;">
-  <img src=${pok.sprites.front_shiny} class="card-img-top" alt=${list.name}>
+  <img src=${pok.sprites.front_default} class="card-img-top" alt=${list.name}>
   <div class="card-body">
     <h5 class="card-title">${list.name}</h5>
     <div class="card-header">
